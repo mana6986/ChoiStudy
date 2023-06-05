@@ -6,11 +6,11 @@ public class _09_ArrayInterface {
 
 	public static void main(String[] args) {
 		_08_ArrayInterface arr;//2개
-		
 		ArrayInterface ar = new ArrayInterface();//5개
+		
 //		ar = (ArrayInterface) arr;
 		arr = ar;//업캐스팅, 인터페이스에 정의된 메서드와 속성에만 접근가능. => 사용할 수 잇는 멤버가 2개에서 5개로 늘음.
-//		ar = (ArrayInterface)arr;//2개짜리 리모콘이 되었기 때문에, 5개
+		ar = (ArrayInterface)arr;//2개짜리 리모콘이 되었기 때문에, 5개
 		
 		int[] a = { 3, 5, 2, 4, 1 };
 		ar.MaxSubMin(a);
