@@ -19,8 +19,6 @@ public class _16_Jumin {
 		break;
 
 		default:
-			System.out.println("정확한 형식으로 입력하세요.");
-			break;
 		}
 	}
 

@@ -1,6 +1,6 @@
 package day0605;
 
-public interface MP3Interface {
+public interface _06_MP3Interface {
 	void play();
 	void stop();
 

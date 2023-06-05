@@ -1,6 +1,6 @@
 package day0605;
 
-public class ApplePhone implements MobilePhoneInterface, MP3Interface{
+public class _07_ApplePhone implements _05_MobilePhoneInterface, _06_MP3Interface{
 
 	@Override
 	public void sendCall() {

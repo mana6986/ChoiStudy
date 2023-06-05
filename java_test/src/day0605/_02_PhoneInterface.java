@@ -1,6 +1,6 @@
 package day0605;
 
-public interface PhoneInterface {
+public interface _02_PhoneInterface {
 	void sendCall();
 	//전화걸기
 	void receiveCall();

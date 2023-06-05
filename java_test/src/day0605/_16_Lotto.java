@@ -1,17 +1,13 @@
 package day0605;
 // 로또 : 1~45 중 6개 
 //int a = (int)(Math.random()*((큰수-작은수)+1) +1)
-
-
 public class _16_Lotto {
-
 	public static void main(String[] args) {
 		
 		int lotto[] = new int [6];//배열선언, 생성
 		
 		for (int i = 0; i < 6; i++) {
 			lotto[i] = (int)(Math.random()*45+1);
-			
 			//중복 값 해결
 			for (int j = 0; j < i; j++) {
 				if (lotto[i]==lotto[j]) {//같은 값이 있으면
