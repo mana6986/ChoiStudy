@@ -67,7 +67,7 @@ public class Sample2 {
 				}
 				System.out.println();
 			}
-			System.out.println("계속하시겠습니까? 0을 누르면 종료");
+			System.out.println("계속하시겠습니까? 아무숫자를 누르면 계속. 0을 누르면 종료.");
 
 			int exit = s.nextInt();//숫자를 하나 입력받고...
 			if (exit == 0) {

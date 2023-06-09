@@ -1,6 +1,6 @@
-package day0530;
+package TestTest;
 
-public class Q1 {
+public class Q2 {
 
 	public static void main(String[] args) {
 		// 1. 구구단에서 5단을 제외하고 출력

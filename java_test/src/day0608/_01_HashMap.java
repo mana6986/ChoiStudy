@@ -16,7 +16,7 @@ public class _01_HashMap {
 		while (true) {
 			System.out.print("찾고싶은 단어는?");
 			String eng = s.next();
-			if (eng.equals("exit")) {
+			if (eng.equals("0")) {
 				System.out.println("종료");
 				break;
 			}

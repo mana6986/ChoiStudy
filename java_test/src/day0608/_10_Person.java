@@ -11,20 +11,23 @@ public class _10_Person {
 	private int age;
 	private String addr;
 
-	public _10_Person(){}
-	
+	public _10_Person() {
+	}
+
 	public _10_Person(String name, int age, String addr) {
 		this.name = name;
 		this.age = age;
 		this.addr = addr;
 	}
-	
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public void setAge(int age) {
 		this.age = age;
 	}
+
 	public void setAddr(String addr) {
 		this.addr = addr;
 	}
@@ -64,12 +67,12 @@ public class _10_Person {
 			} else if (a == 2) {
 				System.out.println("삭제할 사용자 이름 입력 : ");
 				String name = s.next();
-				if (m.containsKey(name)) {//지정된 키를 포함하고있으면 true 리턴
+				if (m.containsKey(name)) {// 지정된 키를 포함하고있으면 true 리턴
 					m.remove(name);
 				}
 
 			} else if (a == 3) {
-				Set<String> keys = m.keySet();//해시맵의 모든 키를 담은 키컬렉션 리턴
+				Set<String> keys = m.keySet();// 해시맵의 모든 키를 담은 키컬렉션 리턴
 				Iterator<String> it = keys.iterator();
 
 				while (it.hasNext()) {
@@ -82,8 +85,8 @@ public class _10_Person {
 			} else if (a == 4) {
 				System.out.println("종료");
 				break;
+
 			}
 		}
 	}
-
 }
