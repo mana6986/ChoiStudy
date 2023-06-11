@@ -1,6 +1,6 @@
 package day0605;
 
-public class _02_SamsungPhone implements _02_PhoneInterface {
+public class _03_SamsungPhone implements _02_PhoneInterface {
 
 	@Override
 	public void sendCall() {

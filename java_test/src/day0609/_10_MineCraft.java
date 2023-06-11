@@ -34,7 +34,7 @@ public class _10_MineCraft {
 		int a = enter(1, s);
 		int b = enter(2, s);
 		
-		s.nextInt();
+//		s.nextInt();
 		
 		if (a<b) {
 			System.out.println("1p ÀÌ±ט");
